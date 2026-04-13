@@ -6,24 +6,24 @@
 }
 
 :root {
-    --primary-color: #5d5c58; /* Warm grijs */
-    --secondary-color: #a68b6d; /* Warm beige/hout tint */
-    --accent-color: #e5ddd5; /* Licht beige */
+    --primary-color: #2c3e50; /* Donkerblauw/grijs voor technische uitstraling */
+    --secondary-color: #3498db; /* Helder blauw voor accenten */
+    --accent-color: #ecf0f1; /* Lichtgrijs voor achtergronden */
     --text-color: #333333;
     --white: #ffffff;
     --transition: all 0.3s ease;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     line-height: 1.6;
-    background-color: var(--white);
+    background-color: var(--accent-color);
     overflow-x: hidden;
 }
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8rem;
     letter-spacing: 2px;
     font-weight: 700;

@@ -42,4 +42,4 @@ document.querySelectorAll('.material-item, .hero-content, .hero-image').forEach(
     observer.observe(el);
 });
 
-console.log('Urk Interieur website geladen. Welkom!');
+console.log('Urk Architectuur & Interieur website geladen. Welkom!');
